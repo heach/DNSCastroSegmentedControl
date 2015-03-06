@@ -125,6 +125,11 @@ static CGFloat DefaultHeight = 40;
                                                                multiplier:1
                                                                  constant:SelectionViewPadding];
     [self addConstraint:self.selectionLeftConstraint];
+    self.selectionView.layer.masksToBounds = NO;
+    self.selectionView.layer.shadowColor = [UIColor blackColor].CGColor;
+    self.selectionView.layer.shadowOffset = CGSizeMake(0.0f, 5.0f);
+    self.selectionView.layer.shadowOpacity = 0.5f;
+    self.selectionView.layer.shadowPath = shadowPath.CGPath;
 }
 
 - (void)setupSelectionBackgroundView
