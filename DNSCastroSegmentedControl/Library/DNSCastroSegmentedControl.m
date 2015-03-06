@@ -8,7 +8,7 @@
 
 #import "DNSCastroSegmentedControl.h"
 
-static CGFloat SelectionViewPadding = 3;
+static CGFloat SelectionViewPadding = 0;
 static NSTimeInterval AnimationDuration = 0.2;
 
 static CGFloat SelectedAlpha = 1;
