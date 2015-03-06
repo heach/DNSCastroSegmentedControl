@@ -17,6 +17,7 @@
 
 ///The current selected index. Zero-indexed. 
 @property (nonatomic) NSInteger selectedSegmentIndex;
+@property (nonatomic) UIView *selectionView;
 
 ///Will set a font to be used for all labels. If nil, the default system font will be used.
 @property (nonatomic) UIFont *labelFont;

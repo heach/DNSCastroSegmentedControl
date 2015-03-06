@@ -17,7 +17,7 @@ static CGFloat DeselectedAlpha = 0.4;
 static CGFloat DefaultHeight = 40;
 
 @interface DNSCastroSegmentedControl()
-@property (nonatomic) UIView *selectionView;
+
 @property (nonatomic) UIView *selectionBackgroundView;
 @property (nonatomic) NSArray *sectionViews;
 @property (nonatomic) CGPoint initialTouchPoint;
