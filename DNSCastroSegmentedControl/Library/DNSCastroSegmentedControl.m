@@ -125,6 +125,7 @@ static CGFloat DefaultHeight = 40;
                                                                multiplier:1
                                                                  constant:SelectionViewPadding];
     [self addConstraint:self.selectionLeftConstraint];
+    UIBezierPath *shadowPath = [UIBezierPath bezierPathWithRect:self.selectionView.bounds];
     self.selectionView.layer.masksToBounds = NO;
     self.selectionView.layer.shadowColor = [UIColor blackColor].CGColor;
     self.selectionView.layer.shadowOffset = CGSizeMake(0.0f, 5.0f);
