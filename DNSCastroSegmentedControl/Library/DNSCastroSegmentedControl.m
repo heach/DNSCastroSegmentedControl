@@ -115,7 +115,7 @@ static CGFloat DefaultHeight = 40;
     
     self.selectionView.backgroundColor = [UIColor whiteColor];
     self.selectionView.layer.masksToBounds = NO;
-    self.selectionView.layer.shadowColor = [UIColor lightGrayColor].CGColor;
+    self.selectionView.layer.shadowColor = [UIColor darkGrayColor].CGColor;
     self.selectionView.layer.shadowOffset = CGSizeMake(0.0f, 2.5f);
     self.selectionView.layer.shadowOpacity = 0.5f;
     self.selectionView.layer.shadowRadius = 2.0f;
